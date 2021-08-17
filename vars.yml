@@ -1,0 +1,3 @@
+---
+grafana_api_key: "your-token-here"
+grafana_url: "your_ip:3000_or_domain"

@@ -1,0 +1,6 @@
+[servers]
+server1 ansible_host=your_ip_or_domain
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
+

@@ -1,0 +1,12 @@
+- name: Deploy grafana
+  hosts: all
+  vars_files:
+    - ./vars.yml
+  tasks:
+    - name: Import Grafana dashboard foo
+      community.grafana.grafana_dashboard:
+        grafana_url: "{{ grafana_url }}"
+        state: present
+        commit_message: Updated by ansible
+        overwrite: yes
+        path: https://raw.githubusercontent.com/zuchka/dotfiles/main/json/dashboard.json
