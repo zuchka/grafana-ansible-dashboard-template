@@ -2,7 +2,9 @@
 
 * Ansible installed on your local machine
 
-* A Virtual Machine running Ubuntu 20
+* Grafana 7+ installed and configured on a machine running Ubuntu 18+
+
+* A Grafana API Token
 
 ## Steps
 
